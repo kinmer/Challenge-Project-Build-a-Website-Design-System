@@ -18,7 +18,7 @@ h1, h2 {
     padding: 0.5rem 0;
 }
 
-#colors {
+#colors, #fonts, #text-styles {
     padding: 1rem;
     max-width: 800px;
     margin: 2rem auto;
@@ -27,9 +27,7 @@ h1, h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.color-swatch {
-    display: flex;
-    align-items: center;
+.color-swatch, .font-swatch, .text-style {
     margin-bottom: 1rem;
 }
 
@@ -41,13 +39,64 @@ h1, h2 {
     border: 1px solid #ddd;
 }
 
-.color-info h3 {
+.color-info h3, .font-swatch h3, .text-style h3 {
     margin: 0;
     font-size: 1.2rem;
 }
 
-.color-info p {
+.color-info p, .font-swatch p, .text-style p {
     margin: 0.2rem 0;
     font-size: 0.9rem;
     color: #555;
+}
+
+/* Font styles */
+.font-plain {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.font-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.font-italic {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.font-underline {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.font-lobster {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+}
+
+/* Text styles */
+.main-heading-example {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.subheading-example {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.paragraph-example {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
