@@ -11,65 +11,92 @@
 <body>
     <header>
         <h1>My Style Guide</h1>
+        <nav>
+            <ul>
+                <li><a href="#colors">Colors</a></li>
+                <li><a href="#fonts">Fonts</a></li>
+                <li><a href="#text-styles">Text Styles</a></li>
+                <li><a href="#buttons">Buttons</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="colors">
-        <h2>Colors</h2>
-        <div class="color-swatch">
-            <div class="color-box" style="background-color: #3498db;"></div>
-            <div class="color-info">
-                <h3>Primary Blue</h3>
-                <p>Hex: #3498db</p>
-                <p>RGB: rgb(52, 152, 219)</p>
-                <p>Description: Used for primary buttons and links.</p>
+    <main>
+        <section id="colors">
+            <h2>Colors</h2>
+            <div class="color-swatch">
+                <div class="color-box" style="background-color: #3498db;"></div>
+                <div class="color-info">
+                    <h3>Primary Blue</h3>
+                    <p>Hex: #3498db</p>
+                    <p>RGB: rgb(52, 152, 219)</p>
+                    <p>Description: Used for primary buttons and links.</p>
+                </div>
             </div>
-        </div>
-        <div class="color-swatch">
-            <div class="color-box" style="background-color: #2ecc71;"></div>
-            <div class="color-info">
-                <h3>Success Green</h3>
-                <p>Hex: #2ecc71</p>
-                <p>RGB: rgb(46, 204, 113)</p>
-                <p>Description: Used for success messages and highlights.</p>
+            <div class="color-swatch">
+                <div class="color-box" style="background-color: #2ecc71;"></div>
+                <div class="color-info">
+                    <h3>Success Green</h3>
+                    <p>Hex: #2ecc71</p>
+                    <p>RGB: rgb(46, 204, 113)</p>
+                    <p>Description: Used for success messages and highlights.</p>
+                </div>
             </div>
-        </div>
-        <!-- Add more color swatches as needed -->
-    </section>
+            <!-- Add more color swatches as needed -->
+        </section>
 
-    <section id="fonts">
-        <h2>Fonts</h2>
-        <div class="font-swatch">
-            <h3>Roboto</h3>
-            <p class="font-plain">The quick brown fox jumps over the lazy dog.</p>
-            <p class="font-bold">The quick brown fox jumps over the lazy dog.</p>
-            <p class="font-italic">The quick brown fox jumps over the lazy dog.</p>
-            <p class="font-underline">The quick brown fox jumps over the lazy dog.</p>
-        </div>
-        <div class="font-swatch">
-            <h3>Lobster</h3>
-            <p class="font-lobster">The quick brown fox jumps over the lazy dog.</p>
-        </div>
-        <!-- Add more font swatches as needed -->
-    </section>
+        <section id="fonts">
+            <h2>Fonts</h2>
+            <div class="font-swatch">
+                <h3>Roboto</h3>
+                <p class="font-plain">The quick brown fox jumps over the lazy dog.</p>
+                <p class="font-bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="font-italic">The quick brown fox jumps over the lazy dog.</p>
+                <p class="font-underline">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+            <div class="font-swatch">
+                <h3>Lobster</h3>
+                <p class="font-lobster">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+            <!-- Add more font swatches as needed -->
+        </section>
 
-    <section id="text-styles">
-        <h2>Text Styles</h2>
-        <div class="text-style">
-            <h3>Main Heading (h1)</h3>
-            <p class="main-heading-example">This is a main heading example.</p>
-            <pre>font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 2rem;</pre>
-        </div>
-        <div class="text-style">
-            <h3>Subheading (h2)</h3>
-            <p class="subheading-example">This is a subheading example.</p>
-            <pre>font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 1.5rem;</pre>
-        </div>
-        <div class="text-style">
-            <h3>Paragraph</h3>
-            <p class="paragraph-example">This is a paragraph example.</p>
-            <pre>font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 1rem;</pre>
-        </div>
-        <!-- Add more text styles as needed -->
-    </section>
+        <section id="text-styles">
+            <h2>Text Styles</h2>
+            <div class="text-style">
+                <h3>Main Heading (h1)</h3>
+                <p class="main-heading-example">This is a main heading example.</p>
+                <pre>font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 2rem;</pre>
+            </div>
+            <div class="text-style">
+                <h3>Subheading (h2)</h3>
+                <p class="subheading-example">This is a subheading example.</p>
+                <pre>font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 1.5rem;</pre>
+            </div>
+            <div class="text-style">
+                <h3>Paragraph</h3>
+                <p class="paragraph-example">This is a paragraph example.</p>
+                <pre>font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 1rem;</pre>
+            </div>
+            <!-- Add more text styles as needed -->
+        </section>
+
+        <section id="buttons">
+            <h2>Buttons</h2>
+            <div class="button-swatch">
+                <button class="btn-primary">Primary Button</button>
+                <pre>.btn-primary { background-color: #3498db; color: #fff; padding: 10px 20px; border: none; border-radius: 4px; }</pre>
+            </div>
+            <div class="button-swatch">
+                <button class="btn-success">Success Button</button>
+                <pre>.btn-success { background-color: #2ecc71; color: #fff; padding: 10px 20px; border: none; border-radius: 4px; }</pre>
+            </div>
+            <!-- Add more button styles as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 My Style Guide. All rights reserved.</p>
+    </footer>
 </body>
 </html>
